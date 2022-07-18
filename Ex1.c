@@ -21,6 +21,7 @@ int main()
 {
     char a[50];
     printf("Enter the String: ");
+    printf("Hello World");
     fgets(a, 50, stdin);
     char *token = strtok(a, " ");
     printf("Lexeme\tToken\tAddress\n");
